@@ -63,7 +63,7 @@ const Home = () => {
 
             <About />
 
-            <div className="Section p-[269px] pt-[169px]">
+            <div className="Section p-[240px] pt-[169px]">
                 {/* Our Projects Section */}
                 <div className="addrees flex justify-between flex-wrap">
                     {/* Left Part */}

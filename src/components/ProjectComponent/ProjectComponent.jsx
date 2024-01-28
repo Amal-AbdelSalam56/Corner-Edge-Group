@@ -40,7 +40,7 @@ const ProjectComponent = () => {
                 </div>
 
                 {/* Right Part */}
-                <div className="Right w-1/2">
+                <div className="Right right w-1/2">
                     <img
                         src={img4}
                         alt="right img"
@@ -56,7 +56,14 @@ const ProjectComponent = () => {
                    @media (max-width: 650px) {
                     .List  {
                      padding: 0px!important;
+                     border: none!important;
+                     border-top-right-radius: 44px;
+                     border-bottom-right-radius: 44px;
+                    }
 
+                    .right{
+                        padding-bottom: 1.5rem;
+                    }
                      }
 
              `}

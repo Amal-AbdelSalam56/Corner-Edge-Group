@@ -35,6 +35,11 @@ const Footer = () => {
             default:
                 break;
         }
+
+        //// Force a page refresh
+        // window.location.reload();
+        // Scroll to the top of the page
+        window.scrollTo(0, 0);
     };
 
     return (
@@ -44,7 +49,7 @@ const Footer = () => {
 
 
                 {/* Subscribe show in mobile */}
-                <div className="Subscribe lg:hidden w-3/8 text-center h-fit mb-5">
+                <div className="Subscribe sm:hidden w-3/8 text-center h-fit mb-5">
                     <div className="mb-2">
                         <h1 className="text-[30px] font-bold mb-2">Subscribe:</h1>
                         <p className="text-[14px] mb-2">Join Our Mailing List & get our news.</p>
@@ -99,8 +104,7 @@ const Footer = () => {
 
 
                 {/* Dropdown mobile Section */}
-
-                <div className="dropdown mb-4 lg:hidden">
+                <div className="dropdown mb-4 sm:hidden">
                     {/* Quick Links Dropdown */}
                     <div className="w-1/8">
                         <select
@@ -147,8 +151,8 @@ const Footer = () => {
 
 
                 {/* Quick Links Section */}
-                {/* <div className="hide flex justify-between mb-4 flex-wrap">
-                    {/* Quick Links 
+                <div className="hide flex justify-between mb-4 flex-wrap">
+                    {/* Quick Links  */}
                     <div className="w-1/8">
                         <h3 className="text-2xl font-semibold mb-2 flex text-[#40DDB6]"> <img src={box}
                             style={{ height: "fit-content", marginTop: "9px", marginRight: "10px" }} /> Quick Links:</h3>
@@ -161,7 +165,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* Our Services 
+                    {/* Our Services  */}
                     <div className="w-2/8">
                         <h3 className="text-2xl font-semibold mb-2 flex text-[#40DDB6]"><img src={box}
                             style={{ height: "fit-content", marginTop: "9px", marginRight: "10px" }} /> Our Services:</h3>
@@ -175,7 +179,7 @@ const Footer = () => {
                         </rl>
                     </div>
 
-                    {/* Other Links 
+                    {/* Other Links  */}
                     <div className="w-1/8 mt-9">
 
                         <rl >
@@ -188,7 +192,7 @@ const Footer = () => {
                         </rl>
                     </div>
 
-                    {/* Subscribe Section
+                    {/* Subscribe Section */}
                     <div className=" Subscribe w-3/8 bg-[#FFFFFF33] p-[42px] h-fit">
                         <div className="mb-2">
                             <h1 className="text-xl font-bold mb-2">Subscribe:</h1>
@@ -199,7 +203,7 @@ const Footer = () => {
                             <button className="button bg-[#40DDB6] py-6 px-8  text-white text-xl border-none">Subscribe</button>
                         </div>
                     </div>
-                </div> */}
+                </div>
 
                 {/* Horizontal Line */}
                 <hr className="hide border-t border-[#6C6D72] my-4 mx-16 " />

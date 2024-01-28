@@ -91,7 +91,7 @@ const Background = () => {
           @media (max-width: 768px) {
             .bgButtons {
                 flex-direction: column!important;
-                font-size: 10px!important;
+                // font-size: 10px!important;
 
             }
             .bgButton {
@@ -102,16 +102,27 @@ const Background = () => {
            @media (max-width: 558px) {
             .bgButtons {
                 --tw-translate-y: 10%!important;
-                font-size: 10px!important;
+                // font-size: 10px!important;
+                width: 22rem!important;
+                 font-size: small!important;
             }
+            
            }
          
            @media (max-width: 471px) {
             .bgButtons {
-                --tw-translate-y: 0%!important;
-                font-size: 6px!important;
+                --tw-translate-y: -14%!important;
+                // font-size: 6px!important;
+                width: 22rem!important;
+                font-size: small!important;
             }
            }
+
+          
+
+
+
+
            
         `}
                 </style>

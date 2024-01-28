@@ -17,7 +17,7 @@ const Navbar = () => {
         <nav className="nav flex justify-between items-center bg-white p-4 sticky inset-x-0 top-0 w-full z-10"
             style={{ paddingRight: '251px', paddingLeft: '251px' }}>
 
-            <div className="flex items-center">
+            <div className="flex items-center cursor-pointer" onClick={() => navigate('/')}>
                 <img src={Logo} alt="Logo" className="h-20 " />
             </div>
 

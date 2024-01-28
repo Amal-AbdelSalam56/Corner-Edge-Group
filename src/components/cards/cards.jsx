@@ -75,7 +75,7 @@ const Cards = () => {
                     </div>
                 </div>
 
-                <div className="sgroub flex justify-around flex-wrap"
+                <div className="sgroub flex justify-around mb-8 flex-wrap"
                     onMouseEnter={() => setHovered2(true)}
                     onMouseLeave={() => setHovered2(false)}>
 
@@ -86,7 +86,7 @@ const Cards = () => {
 
                     {isHovered2 && (
                         <h1
-                            className="text-3xl font-bold mb-8 w-full text-white ">
+                            className="text-3xl font-bold my-8 w-full text-white ">
                             ICT Business analysis and architecture
                         </h1>
                     )}
@@ -161,18 +161,17 @@ const Cards = () => {
                     .Cards {
                      margin-left: 5rem!important;
                      margin-right: 5rem!important;
-         
-                 }
-                }
-
-                @media (max-width: 940px) {
-                    .Cards {
-                     margin-left: 2rem!important;
-                     margin-right: 2rem!important;
                  }
                  .Card {
                     margin-bottom: 2rem;
 
+                 }
+                }
+                
+                @media (max-width: 940px) {
+                    .Cards {
+                     margin-left: 2rem!important;
+                     margin-right: 2rem!important;
                  }
                  .fgroub {
                     margin-bottom: 0rem;

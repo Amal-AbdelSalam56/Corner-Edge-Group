@@ -15,7 +15,7 @@ const Blog = () => {
 
             <div className="text-center items-center mt-4 mb-28">
                 <h1 className="text-6xl font-bold mb-4">Latest News</h1>
-                <p className="text-[#797979] text-lg mb-8">We Keep You Updated</p>
+                <p className="text-[#797979] text-[16px] mb-8">We Keep You Updated</p>
                 {/* <div className="flex items-center bg-[#F5F5F5] h-14 w-[592px] m-auto rounded-full">
                     <input
                         type="text"
@@ -44,13 +44,13 @@ const Blog = () => {
             </div >
 
             <div className="Newsheader text-center mx-80 mb-20 mt-20">
-                <p className="text-2xl font-samibold mb-2 flex items-center justify-center">
+                <p className="text-[22px] font-samibold mb-2 flex items-center justify-center">
                     <span>
                         <img src={Boxgreen} style={{ height: "fit-content", marginRight: "10px" }} />
                     </span>
                     Our Recent News
                 </p>
-                <h1 className="text-4xl font-bold mb-4 ">Featured News And Insights</h1>
+                <h1 className="text-[34px] font-bold mb-4 ">Featured News And Insights</h1>
             </div>
 
             <div className="flex items-center m-auto justify-center flex-wrap">
@@ -75,7 +75,7 @@ const Blog = () => {
             <div className="border border-[#F4F4F4] overflow-hidden w-[140px] h-[65px] mx-auto my-20 
                     bg-[#29366E] text-white">
                 <div className="flex justify-center text-center px-2 py-4 cursor-pointer">
-                    <h2 className="text-xl font-semibold">Next</h2>
+                    <h2 className="text-[18px] font-semibold">Next</h2>
                     <img
                         src={left}
                         alt="Image 1"

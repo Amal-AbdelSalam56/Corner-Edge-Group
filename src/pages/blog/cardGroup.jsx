@@ -40,11 +40,12 @@ const CardGroup = ({ bigImg, header, contant }) => {
                 </div>
 
                 <div className="group w-[592px] mt-6">
-                    <p className="text-3xl font-bold mb-2">{header}</p>
-                    <p className="text-lg text-[#797979] mb-2">{contant}</p>
+                    <p className="text-[28px] font-bold mb-2">{header}</p>
+                    <p className="text-[16px] text-[#797979] mb-2">{contant}</p>
                 </div>
                 <div className="group  w-[592px] py-4 float-left cursor-pointer">
-                    <a className="py-2  font-semibold rounded text-[#29366E]" onClick={() => navigate('/blogSingle')}>
+                    <a className="py-2  font-semibold rounded text-[#29366E]"
+                        onClick={() => { navigate('/blogSingle'); window.scrollTo(0, 0); }}>
                         Read More
                     </a>
                 </div>

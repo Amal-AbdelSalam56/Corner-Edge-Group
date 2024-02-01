@@ -32,8 +32,8 @@ const ProjectComponent = () => {
                     <ul>
                         {projects.map((project, index) => (
                             <li key={index} className="mb-4 flex items-center">
-                                <span className="mr-4 text-2xl font-semibold text-[#DFDFDF]">{project.num}</span>
-                                <span className="text-xl font-semibold text-[#212326]">{project.name}</span>
+                                <span className="mr-4 text-[22px] font-semibold text-[#DFDFDF]">{project.num}</span>
+                                <span className="text-[18px] font-semibold text-[#212326]">{project.name}</span>
                             </li>
                         ))}
                     </ul>

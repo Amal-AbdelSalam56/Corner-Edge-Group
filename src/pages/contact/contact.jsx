@@ -12,11 +12,11 @@ const Contact = () => {
                 <img src={img5} alt="Your Image" className="w-full h-auto" />
 
                 {/* Text on Image */}
-                <div className="Text1 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[50%] sm:-translate-y-[160%] md:-translate-y-[100%] lg:-translate-y-[80%] xl:-translate-y-[120%] text-white text-5xl font-bold">
+                <div className="Text1 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[50%] sm:-translate-y-[160%] md:-translate-y-[100%] lg:-translate-y-[80%] xl:-translate-y-[120%] text-white text-[46px] font-bold">
                     Need help?
                 </div>
 
-                <p className="Text2 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[-5%] sm:-translate-y-[-5%] md:-translate-y-[-5%] lg:-translate-y-[-5%] xl:-translate-y-[-5%] text-white text-lg">
+                <p className="Text2 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[-5%] sm:-translate-y-[-5%] md:-translate-y-[-5%] lg:-translate-y-[-5%] xl:-translate-y-[-5%] text-white text-[16px]">
                     We're glad to help and answer any questions you might have.
                     Leave us a message below, and we'll get back to you as soon as possible!
                 </p>
@@ -26,7 +26,7 @@ const Contact = () => {
                 {/* Our Projects Section */}
                 <div className="text-start ">
                     <div className="pr-4">
-                        <h1 className="text-3xl font-bold mb-4 ml-0">Send us a message</h1>
+                        <h1 className="text-[28px] font-bold mb-4 ml-0">Send us a message</h1>
                     </div>
                 </div>
             </div>
@@ -37,28 +37,28 @@ const Contact = () => {
                 <div className="Left w-1/2 pt-20 px-20 pb-10 bg-white shadow-xl mr-6 ">
                     <form >
                         <div className="mb-6">
-                            <label htmlFor="firstName" className="block text-sm text-[#8D8D8D]">First Name:</label>
+                            <label htmlFor="firstName" className="block text-[12px] text-[#8D8D8D]">First Name:</label>
                             <input type="text" id="firstName" name="firstName" className="w-full p-2 border border-slate-400 " />
                         </div>
 
                         <div className="mb-6">
-                            <label htmlFor="Email" className="block text-sm text-[#8D8D8D]">Email:</label>
+                            <label htmlFor="Email" className="block text-[12px] text-[#8D8D8D]">Email:</label>
                             <input type="text" id="Email" name="Email" className="w-full p-2 border border-slate-400 " />
                         </div>
                         <div className="mb-6">
-                            <label htmlFor="Phone" className="block text-sm text-[#8D8D8D]">Phone:</label>
+                            <label htmlFor="Phone" className="block text-[12px] text-[#8D8D8D]">Phone:</label>
                             <input type="text" id="Phone" name="Phone" className="w-full p-2 border border-slate-400" />
                         </div>
                         <div className="mb-6">
-                            <label htmlFor="Company" className="block text-sm text-[#8D8D8D]">Company:</label>
+                            <label htmlFor="Company" className="block text-[12px] text-[#8D8D8D]">Company:</label>
                             <input type="text" id="Company" name="Company" className="w-full p-2 border border-slate-400" />
                         </div>
                         <div className="mb-6">
-                            <label htmlFor="Requested Service" className="block text-sm text-[#8D8D8D]">Requested Service:</label>
+                            <label htmlFor="Requested Service" className="block text-[12px] text-[#8D8D8D]">Requested Service:</label>
                             <input type="text" id="Requested Service" name="Requested Service" className="w-full p-2 border border-slate-400" />
                         </div>
                         <div className="mb-6">
-                            <label htmlFor="comment" className="block text-sm text-[#8D8D8D]">Comment or Message:</label>
+                            <label htmlFor="comment" className="block text-[12px] text-[#8D8D8D]">Comment or Message:</label>
                             <textarea id="comment" name="comment" rows="4" className="w-full p-2 border border-slate-400"></textarea>
                         </div>
                         <div className="w-full text-center">
@@ -75,8 +75,8 @@ const Contact = () => {
                             <img src={Vector1} alt="Call Icon" className="Contact w-[89px] h-[89px] mr-4 p-4 rounded-full"
                                 style={{ background: 'linear-gradient(101.44deg, #FFE3B8 -0.73%, #FFDBC7 42.05%, #FFA3C7 89.15%)' }} />
                             <div>
-                                <p className="text-sm font-semibold text-black">Call Us</p>
-                                <p className="text-lg">+61 481 95 11 96</p>
+                                <p className="text-[12px] font-semibold text-black">Call Us</p>
+                                <p className="text-[16px]">+61 481 95 11 96</p>
                             </div>
                         </button>
                     </div>
@@ -87,8 +87,8 @@ const Contact = () => {
                             <img src={Vector2} alt="Write Icon" className="Contact w-[89px] h-[89px] mr-4 p-4 rounded-full"
                                 style={{ background: 'linear-gradient(101.44deg, #B8C7FF -0.73%, #BAD6FF 42.05%, #99E8F8 89.15%)' }} />
                             <div>
-                                <p className="text-sm font-semibold  text-black">Write Us</p>
-                                <p className="text-lg text-wrap">Inf@corneredge.com</p>
+                                <p className="text-[12px] font-semibold  text-black">Write Us</p>
+                                <p className="text-[16px] text-wrap">Info@corneredge.com.au</p>
                             </div>
                         </button>
                     </div>

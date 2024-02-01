@@ -52,8 +52,8 @@ const BlogSingle = () => {
 
 
                 <div className="group w-[1220px] mt-6">
-                    <p className="text-3xl font-bold mb-4"> Biomedical Equipment management :</p>
-                    <rl className="text-lg text-[#797979] mb-2">
+                    <p className="text-[28px] font-bold mb-4"> Biomedical Equipment management :</p>
+                    <rl className="text-[16px] text-[#797979] mb-2">
                         <li className=" mb-2">
                             Analyze the hospital’s asset list and perform an on-site audit of both clinical and non-clinical equipment
                         </li>
@@ -72,7 +72,7 @@ const BlogSingle = () => {
 
 
                 <hr className="group w-[1220px] h-6 bg-[#29366E] mt-6" />
-                <div className="group textgroup w-[1220px] h-[200px] bg-[#40DDB6] py-16 px-24 text-center text-[#37393F] text-lg font-medium overflow-hidden">
+                <div className="group textgroup w-[1220px] h-[200px] bg-[#40DDB6] py-16 px-24 text-center text-[#37393F] text-[16px] font-medium overflow-hidden">
                     <p className="overflow-y-auto overflow-ellipsis">
                         Our expertise in Biomedical Engineering and ICT, alongside our consultancy and project management services, offers
                         a complete solution for healthcare projects. Understanding the industry’s unique demands, we tailor solutions for
@@ -88,12 +88,13 @@ const BlogSingle = () => {
                     <div className="News flex justify-between flex-wrap">
                         {/* Left Part */}
                         <div className="pr-4">
-                            <h1 className=" text-4xl text-[#2F3E78] font-semibold mb-4">Related News</h1>
+                            <h1 className=" text-[34px] text-[#2F3E78] font-semibold mb-4">Related News</h1>
                         </div>
 
                         {/* Right Part */}
                         <div className="Rightbtn">
-                            <button onClick={() => navigate('/projects')} className="bg-[#2F3E78] text-lg font-semibold py-4 px-12 text-white">More News</button>
+                            <button onClick={() => { navigate('/projects'); window.scrollTo(0, 0); }}
+                                className="bg-[#2F3E78] text-[16px] font-semibold py-4 px-12 text-white">More News</button>
                         </div>
                     </div>
                 </div>

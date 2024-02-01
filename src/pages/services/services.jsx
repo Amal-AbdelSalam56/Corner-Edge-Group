@@ -33,9 +33,10 @@ import Photo10 from "../../assets/images/Photo10.jpg";
 
 
 const Card = ({ title, imageSrc, buttonText, onButtonClick }) => (
-    <div className="our border text-left border-[#F4F4F4] overflow-hidden max-w-xs mx-auto my-8 bg-[#F4F4F4]">
+    <div className="our border text-left border-[#F4F4F4] overflow-hidden max-w-xs mx-auto my-8 bg-[#F4F4F4] cursor-pointer"
+        onClick={onButtonClick}>
         <div className="flex items-center justify-between p-4 ">
-            <h2 className="text-xl font-semibold">{title}</h2>
+            <h2 className="text-[18px] font-semibold">{title}</h2>
             {/* <img src={imageSrc} alt={title} className="w-16 h-16 object-cover bg-[#40DDB6] rounded-full" /> */}
             <img src={imageSrc} alt="Tendering and Procurement" className="bg-[#2FD794] w-16 h-16 m-auto mt-8 object-none rounded-full" />
         </div>
@@ -222,11 +223,17 @@ const Services = () => {
             <div className="relative">
                 {/* Image */}
                 <img src={Banner} alt="Your Image" className="w-full h-auto" />
+                {/* Button */}
+                <div className="absolute bottom-0 left-0 ">
+                    <button className="blueDiv text-white font-semibold bg-[#30407B] py-6 pl-12  text-[20px] w-[117%] text-start">
+                        Strategic healthcare <br /> Equipment planning
 
+                    </button>
+                </div>
             </div>
 
             <div className="Business text-center mx-80 mb-20 mt-20">
-                <h1 className="text-2xl font-bold mb-8 flex items-center justify-center">
+                <h1 className="text-[22px] font-bold mb-8 flex items-center justify-center">
                     <span>
                         <img src={Boxgreen} style={{ height: "fit-content", marginRight: "10px" }} />
                     </span>
@@ -320,7 +327,7 @@ const Services = () => {
                     <div className="border border-[#F4F4F4] overflow-hidden max-w-md mx-auto my-8 
                     bg-[#29366E] text-white">
                         <div className="flex justify-center text-center m-auto px-24 py-20">
-                            <h2 className="text-xl font-semibold" onClick={handleMoreClick}>{buttonText}</h2>
+                            <h2 className="text-[18px] font-semibold" onClick={handleMoreClick}>{buttonText}</h2>
                         </div>
                     </div>
 
@@ -350,6 +357,16 @@ const Services = () => {
                 .Business{
                     margin-right: 2rem!important;
                     margin-left: 2rem!important;
+                }
+               }
+               @media (max-width: 1063px) {
+           
+                .blueDiv{
+                    font-size: 9px!important;
+                    padding-left: 1rem!important;
+                    padding-top: 0.5rem!important;
+                    padding-bottom: 0.5rem!important;
+    
                 }
                }
          `}

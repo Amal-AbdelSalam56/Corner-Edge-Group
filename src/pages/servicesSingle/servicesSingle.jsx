@@ -53,7 +53,7 @@ const ServicesSingle = () => {
                 <img src={imgCover} alt="Your Image" className="w-full h-auto " />
 
                 {/* Text on Image */}
-                <div className="TextImg absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-5xl font-bold">
+                <div className="TextImg absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-[46px] font-bold">
                     {titl}
                 </div>
             </div>
@@ -62,7 +62,7 @@ const ServicesSingle = () => {
                 {/* Left half with image and content */}
                 <div className="Left w-[60%]">
                     <img src={img} alt="Medical Equipment Planning" className="w-full mb-[3rem]" />
-                    <h1 className="text-2xl font-bold mt-4 mb-[3rem]"> {titl}</h1>
+                    <h1 className="text-[22px] font-bold mt-4 mb-[3rem]"> {titl}</h1>
                     <p className="text-gray-600 mt-2  ">
                         {content}
                     </p>
@@ -104,7 +104,7 @@ const ServicesSingle = () => {
                 {/* Our values Section */}
                 <div className="flex justify-between ">
                     <div className="pr-4">
-                        <h1 className="text-4xl font-semibold mb-4 ">Our values:</h1>
+                        <h1 className="text-[34px] font-semibold mb-4 ">Our values:</h1>
                     </div>
                 </div>
 
@@ -118,7 +118,7 @@ const ServicesSingle = () => {
                                     <span className="myicon">
                                         <img src={checkgreen} className=" mr-8" />
                                     </span>
-                                    <span className="myText text-xl font-semibold text-[#7D7D7D]">{value.name}</span>
+                                    <span className="myText text-[18px] font-semibold text-[#7D7D7D]">{value.name}</span>
                                 </li>
                             ))} */}
                             {displayedValues.map((value, index) => (
@@ -126,7 +126,7 @@ const ServicesSingle = () => {
                                     <span className="myicon">
                                         <img src={checkgreen} className=" mr-8" />
                                     </span>
-                                    <span className="myText text-xl font-semibold text-[#7D7D7D]">
+                                    <span className="myText text-[18px] font-semibold text-[#7D7D7D]">
                                         {value && value.name ? value.name : 'Default Name'}
                                     </span>
                                 </li>
@@ -208,7 +208,16 @@ const ServicesSingle = () => {
             }
            }
           
+        //    @media (max-width: 1063px) {
            
+        //     .blueDiv{
+        //         font-size: 9px!important;
+        //         padding-left: 1rem!important;
+        //         padding-top: 0.5rem!important;
+        //         padding-bottom: 0.5rem!important;
+
+        //     }
+        //    }
           
 
           `}

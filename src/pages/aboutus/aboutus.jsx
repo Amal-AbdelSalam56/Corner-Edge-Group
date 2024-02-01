@@ -14,7 +14,7 @@ const ValuesTab = ({ title, image, content, active, onClick }) => (
         onClick={() => onClick(title, image, content)}
     >
         <div>
-            <h2 className="text-lg font-bold">{title}</h2>
+            <h2 className="text-[16px] font-bold">{title}</h2>
         </div>
     </div>
 );
@@ -61,7 +61,7 @@ const AboutUs = () => {
 
 
             <div>
-                <h1 className="text-4xl font-bold my-20 text-center">Our Values</h1>
+                <h1 className="text-[34px] font-bold my-20 text-center">Our Values</h1>
                 <div className="Values flex-wrap flex w-fit justify-between m-auto">
 
                     {tabs.map((tab) => (
@@ -83,14 +83,14 @@ const AboutUs = () => {
                         {/* Left Half  */}
 
                         <div className="Left w-1/2">
-                            <img src={selectedItem.image} alt={selectedItem.title} className="w-full h-auto" />
+                            <img src={selectedItem.image} alt={selectedItem.title} className="max-h-full h-[-webkit-fill-available]" />
                         </div>
                         {/* Right Half  */}
                         <div className="Right w-1/2 text-[#37393F] bg-[#F9F9F9] p-20 text-center">
 
                             <div className="mb-8">
-                                <h1 className="text-2xl w-fit justify-center m-auto font-bold  text-[#1D2F71] border-b-2 border-[#40DDB6]">{selectedItem.title}</h1>
-                                <p className="text-lg mt-20">{selectedItem.content}</p>
+                                <h1 className="text-[22px] w-fit justify-center m-auto font-bold  text-[#1D2F71] border-b-2 border-[#40DDB6]">{selectedItem.title}</h1>
+                                <p className="text-[16px] mt-20">{selectedItem.content}</p>
                             </div>
 
                         </div>

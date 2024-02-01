@@ -10,15 +10,15 @@ const ErrorPage = () => {
                 <img src={img5} alt="Your Image" className="w-full h-auto" />
 
                 {/* Text on Image */}
-                <div className="Text1 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[165%] sm:-translate-y-[253%] md:-translate-y-[155%] lg:-translate-y-[90%] xl:-translate-y-[100%] text-white text-9xl font-bold">
+                <div className="Text1 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[165%] sm:-translate-y-[253%] md:-translate-y-[155%] lg:-translate-y-[90%] xl:-translate-y-[100%] text-white text-[126px] font-bold">
                     404
                 </div>
 
-                <div className="Text2 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[105%] sm:-translate-y-[105%] md:-translate-y-[-14%] lg:-translate-y-[-100%] xl:-translate-y-[-120%] text-white text-5xl font-bold">
+                <div className="Text2 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[105%] sm:-translate-y-[105%] md:-translate-y-[-14%] lg:-translate-y-[-100%] xl:-translate-y-[-120%] text-white text-[46px] font-bold">
                     Oops! Page not found!
                 </div>
 
-                <p className="Text3 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[155%] sm:-translate-y-[236%] md:-translate-y-[131%] lg:-translate-y-[-40%] xl:-translate-y-[-66%] text-white text-lg">
+                <p className="Text3 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[155%] sm:-translate-y-[236%] md:-translate-y-[131%] lg:-translate-y-[-40%] xl:-translate-y-[-66%] text-white text-[16px]">
                     OOOPS! Page not found!
                 </p>
 
@@ -27,7 +27,7 @@ const ErrorPage = () => {
                     <button
                         className="bg-[#40DDB6] text-[#37393F] font-semibold px-4 py-2 rounded focus:outline-none"
                         style={{ padding: "21px 27px" }}
-                        onClick={() => navigate('/')}
+                        onClick={() => { navigate('/'); window.scrollTo(0, 0); }}
                     >
                         Back to Home
                     </button>

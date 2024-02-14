@@ -22,22 +22,18 @@ const Home = () => {
                 <div className="Left w-1/2 pr-4 py-36 px-14">
                     <h1 className=" text-[28px] font-bold mb-4">Welcome to Corner Edge Group</h1>
                     <p className="mb-4 text-[#7D7D7D] text-[16px]">
-                        Corner Edge delivers integrated business and engineering consulting services for safe,
-                        sustainable, and resilient health care facilities.
+                        Corner Edge delivers integrated engineering and business advisory services across our two main divisions.
                     </p>
                     <p className="mb-4 text-[#7D7D7D] text-[16px] ">
-                        Our expertise in Biomedical Engineering and ICT, alongside our consultancy and project
-                        management services, offers a complete solution for healthcare projects. Understanding the
-                        industry’s unique demands, we tailor solutions for new designs or renovations, meeting precise
-                        client needs.
+                        Our expertise in Biomedical Engineering and ICT, alongside our consultancy and project management services, offers a complete solution for different types of projects. Understanding the industry's unique demands, we tailor solutions meeting precise client needs.
                     </p>
                     <p className="mb-4 flex text-[#37393F] text-[18px]">
                         <img src={Vector} alt="Strategic Healthcare Equipment Planning" className="mb-2 mr-2" />
-                        Strategic Healthcare Equipment Planning
+                        Biomedical Engineering and Strategic Healthcare Equipment Planning.
                     </p>
                     <p className=" flex text-[#37393F] text-[18px]">
                         <img src={Vector} alt="ICT Business analysis and architecture" className="mb-2 mr-2" />
-                        ICT Business analysis and architecture
+                        ICT (Information & Communication Technologies) focusing on Business Analysis and Business Architecture.
                     </p>
                     <button className="btnmore bg-[#29366E] text-white px-5 py-4 mt-8"
                         onClick={() => { navigate('/aboutus'); window.scrollTo(0, 0); }} >
@@ -50,9 +46,14 @@ const Home = () => {
                     <img src={img2} alt="Team Image" className="w-full h-auto mb-4" />
                     <h1 className="text-[28px] font-bold mb-4">With over 30 years of combined experience:</h1>
                     <p className="mb-4 text-[#7D7D7D] text-[16px]">
-                        Our Team seamlessly integrate operational and technical knowledge in healthcare facilities.
-                        Understanding the connections between furniture, equipment planning, and procurement enables us to
-                        enhance facility efficiency and safety holistically.
+                        •	Our Professional Affiliations ensures we up to date with Australian professional standards and innovations.
+
+                    </p><p className="mb-4 text-[#7D7D7D] text-[16px]">
+                        •	Our global experience allows us to deliver world class solution in diverse environments.
+
+                    </p><p className="mb-4 text-[#7D7D7D] text-[16px]">
+                        •	Our International Professional Certifications ensure our team members are in line with global professional standards.
+
                     </p>
                     <p className="">
                         <a href="/contact" className=" text-[#37393F] text-[18px] font-semibold border-b border-[#37393F] pb-2">Get in Touch</a>

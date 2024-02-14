@@ -14,6 +14,7 @@ import Blog from './pages/blog/blog';
 import BlogSingle from './pages/blogSingle/blogSingle';
 import Contact from './pages/contact/contact';
 import ErrorPage from './pages/errorPage/errorPage';
+import TeamPage from './pages/ourTeam/ourTeam';
 
 function App() {
 
@@ -33,6 +34,8 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/blogSingle" element={<BlogSingle />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/teamPage" element={<TeamPage />} />
+
         <Route path="/*" exact element={<ErrorPage />} />
 
       </Routes>

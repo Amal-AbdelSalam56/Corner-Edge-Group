@@ -49,12 +49,11 @@ const ServicesSingle = () => {
         <>
 
             <div className="relative">
+                <img src={imgCover} alt="Your Image" className="w-full h-auto" />
 
-                <img src={imgCover} alt="Your Image" className="w-full h-auto " />
-
-                {/* Text on Image */}
-                <div className="TextImg absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-[46px] font-bold">
-                    {titl}
+                {/* Text Container */}
+                <div className="absolute top-full left-1/2 transform -translate-x-1/2 pt-4 text-center">
+                    <h1 className="text-black text-4xl font-bold">{titl}</h1>
                 </div>
             </div>
 

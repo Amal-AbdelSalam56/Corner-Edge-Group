@@ -17,41 +17,65 @@ const WhoUs = () => {
                     </p>
 
                     <p className="">
-                        <a href="#" className=" text-[#37393F] text-xl font-semibold border-b border-[#37393F] pb-2">Get in Touch</a>
+                        <a href="/contact" className=" text-[#37393F] text-xl font-semibold border-b border-[#37393F] pb-2">Get in Touch</a>
                     </p>
                 </div>
 
                 {/* Right Half */}
                 <div className="Right w-1/2 pr-4 py-36 px-14">
                     <h1 className="text-4xl font-bold mb-4">Who we are:</h1>
+                    {/* <p className="mb-4 text-[#7D7D7D] text-lg">
+                        Our Biomedical Engineering and Strategic Healthcare Equipment Planning team specializes in
+                    </p>
                     <p className="mb-4 text-[#7D7D7D] text-lg">
-                        Corner Edge delivers integrated business and engineering consulting services for safe,
-                        sustainable, and resilient health care facilities.
+                        -	FF&E (Furniture, Fittings & Equipment) <br />
+                        -	BioMedical Engineering  <br />
+                        -	Medical Equipment Planning and   <br />
+                        -	Equipment Procurement.    <br />
                     </p>
+                    <p className="mb-4 text-[#7D7D7D] text-lg">
+                        Our commitment to delivering exceptional value and a comprehensive suite of services tailored to healthcare facility requirements is what sets us apart in this competitive landscape.
+                    </p >
+
+
+
+                    <p className="mb-4 text-[#7D7D7D] text-lg">
+                        The Business Analysis and Business Architecture team focuses on:<br />
+                        -	Conducts thorough analyses,<br />
+                        -	Identify opportunities to streamline processes.<br />
+                        -	Design and implement resilient business architectures, delineating frameworks and structures to enhance operational efficiency.
+                    </p >
+
                     <p className=" text-[#7D7D7D] text-lg mb-16">
-                        Our expertise in Biomedical Engineering and ICT, alongside our consultancy and project
-                        management services, offers a complete solution for healthcare projects. Understanding the
-                        industry’s unique demands, we tailor solutions for new designs or renovations, meeting precise
-                        client needs.
-                    </p>
+                        Our collaborative approach bridges the gap between business goals and technological solutions.
+                    </p> */}
 
                     <div className="our border border-[#E3E3E3] rounded-sm p-6  mb-8">
-                        <h1 className="mb-4 flex text-2xl font-bold">
-                            <img src={checkgreen} alt="Strategic Healthcare Equipment Planning" className="mb-2 mr-2" />
-                            Our Vision :
-                        </h1>
-                        <p className="text-lg">
-                            Our envision is to establish ourselves as a prominent consultancy firm, serving clients both nationally and internationally. We strive to provide a comprehensive array of engineering and business services that cater to the diverse needs of our clients.
+                        <p className="mb-4 text-[#7D7D7D] text-lg">
+                            Our Biomedical Engineering and Strategic Healthcare Equipment Planning team specializes in
                         </p>
+                        <p className="mb-4 text-[#7D7D7D] text-lg">
+                            -	FF&E (Furniture, Fittings & Equipment) <br />
+                            -	BioMedical Engineering  <br />
+                            -	Medical Equipment Planning and   <br />
+                            -	Equipment Procurement.    <br />
+                        </p>
+                        <p className="mb-4 text-[#7D7D7D] text-lg">
+                            Our commitment to delivering exceptional value and a comprehensive suite of services tailored to healthcare facility requirements is what sets us apart in this competitive landscape.
+                        </p >
                     </div>
 
                     <div className="our border border-[#E3E3E3] rounded-sm p-6 ">
-                        <h1 className="mb-4 flex text-2xl font-bold">
-                            <img src={checkgreen} alt="Strategic Healthcare Equipment Planning" className="mb-2 mr-2" />
-                            Our Mision :
-                        </h1>
-                        <p className="text-lg">
-                            Deliver integrated business and engineering advisory services to our clients enabling them to achieve their goals and fulfill their needs    </p>
+                        <p className="mb-4 text-[#7D7D7D] text-lg">
+                            The Business Analysis and Business Architecture team focuses on:<br />
+                            -	Conducts thorough analyses,<br />
+                            -	Identify opportunities to streamline processes.<br />
+                            -	Design and implement resilient business architectures, delineating frameworks and structures to enhance operational efficiency.
+                        </p >
+
+                        <p className=" text-[#7D7D7D] text-lg mb-16">
+                            Our collaborative approach bridges the gap between business goals and technological solutions.
+                        </p>
                     </div>
 
 
@@ -59,9 +83,9 @@ const WhoUs = () => {
 
 
 
-                </div>
+                </div >
 
-            </div>
+            </div >
 
 
 

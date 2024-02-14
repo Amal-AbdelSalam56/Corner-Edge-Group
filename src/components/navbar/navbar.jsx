@@ -23,7 +23,7 @@ const Navbar = () => {
                 <div className="hide flex flex-col items-center text-[14px]">
                     <span className="font-semibold">Corner Edge</span>
                     <span className="font-semibold">Group</span>
-                    <span className="font-semibold text-[#40DDB6]">Engineering Advices</span>
+                    <span className="font-semibold text-[#40DDB6]">Engineering Advisors</span>
 
                 </div>
             </div>
@@ -35,12 +35,13 @@ const Navbar = () => {
                     className="text-white cursor-pointer"
                     // onClick={toggleDropdown}
                     onMouseEnter={toggleDropdown}
-                //  onMouseLeave={toggleDropdown}
+                // 
                 />
 
                 {/* Dropdown content */}
                 {isDropdownOpen && (
                     <div className="Dropdown absolute mt-2 space-y-2"
+                        onMouseLeave={toggleDropdown}
                         style={{
                             width: "261px",
                             color: "#1D2F71",
@@ -58,7 +59,7 @@ const Navbar = () => {
                                 fontWeight: "700",
                                 padding: "4px",
                                 paddingTop: "8px",
-                                marginBottom: "28px"
+                                marginBottom: "20px",
                             }}>
                             <a href='/'>Home</a>
                         </div>
@@ -67,7 +68,7 @@ const Navbar = () => {
                                 background: '#EAEBFF', height: "60px", color: "#1D2F71",
                                 fontSize: "24px",
                                 fontWeight: "700",
-                                padding: "4px", paddingTop: "8px", marginBottom: "28px"
+                                padding: "4px", paddingTop: "8px", marginBottom: "20px",
                             }}>
                             <a href='/menu' >Services</a>
                         </div>
@@ -76,7 +77,7 @@ const Navbar = () => {
                                 background: '#EAF7FF', height: "60px", color: "#1D2F71",
                                 fontSize: "24px",
                                 fontWeight: "700",
-                                padding: "4px", paddingTop: "8px", marginBottom: "28px"
+                                padding: "4px", paddingTop: "8px", marginBottom: "20px",
                             }}>
                             <a href='/aboutus'>About Us</a>
                         </div>
@@ -85,15 +86,31 @@ const Navbar = () => {
                             fontSize: "24px",
                             fontWeight: "700",
                             padding: "4px", paddingTop: "8px",
-                            marginBottom: "28px"
+                            marginBottom: "20px",
                         }}>
                             <a href='/contact'>Contact Us</a>
+                        </div>
+                        <div className="Dropdownitem bg-red-100 p-2 rounded cursor-pointer" style={{
+                            background: '#FFE0EC', height: "60px", color: "#1D2F71",
+                            fontSize: "24px",
+                            fontWeight: "700",
+                            padding: "4px", paddingTop: "8px", marginBottom: "20px",
+                        }}>
+                            <a href='/projects'>Projects</a>
+                        </div>
+                        <div className="Dropdownitem bg-green-100 p-2 rounded cursor-pointer" style={{
+                            height: "60px", color: "#1D2F71",
+                            fontSize: "24px",
+                            fontWeight: "700",
+                            padding: "4px", paddingTop: "8px", marginBottom: "20px",
+                        }} >
+                            <a href='/teamPage' >our Team</a>
                         </div>
                         {/* <div className="Dropdownitem bg-pink-100 p-2 rounded cursor-pointer" style={{
                             background: '#FFE0EC', height: "60px", color: "#1D2F71",
                             fontSize: "24px",
                             fontWeight: "700",
-                            padding: "4px", paddingTop: "8px", marginBottom: "28px"
+                            padding: "4px", paddingTop: "8px",marginBottom: "20px",
                         }}>
                             <a href='/blog'>Blog</a>
                         </div> */}
@@ -105,7 +122,7 @@ const Navbar = () => {
                             fontWeight: "700",
                             padding: "4px",
                             paddingTop: "8px",
-                            marginBottom: "28px",
+                            marginBottom: "20px",
                             pointerEvents: "none", // Disable pointer events
                             opacity: "0.5" // Apply opacity to visually indicate disabled state
                         }}>
@@ -118,7 +135,7 @@ const Navbar = () => {
                             background: '#FFEFDB', height: "60px", color: "#1D2F71",
                             fontSize: "24px",
                             fontWeight: "700",
-                            padding: "4px", paddingTop: "8px", marginBottom: "28px"
+                            padding: "4px", paddingTop: "8px",marginBottom: "20px",
                         }} >
                             <a href='/' >Login</a>
                         </div> */}
@@ -132,7 +149,7 @@ const Navbar = () => {
                                 fontWeight: "700",
                                 padding: "4px",
                                 paddingTop: "8px",
-                                marginBottom: "28px",
+                                marginBottom: "20px",
                                 pointerEvents: "none", // Disable pointer events
                                 opacity: "0.5" // Apply opacity to visually indicate disabled state
                             }}
@@ -142,9 +159,15 @@ const Navbar = () => {
                                 Login
                             </a>
                         </div>
+
+
+
+
+
                     </div>
-                )}
-            </div>
+                )
+                }
+            </div >
 
 
             <style>
@@ -180,7 +203,7 @@ const Navbar = () => {
 
 
 
-        </nav>
+        </nav >
     );
 };
 

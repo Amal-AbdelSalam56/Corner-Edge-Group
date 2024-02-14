@@ -236,7 +236,7 @@ const Manu = () => {
 
 
                     {/* Card 1 */}
-                    <div className={`${!isHovered2 ? 'h-60 w-48' : 'h-[9rem] w-[9rem]'}  Card  border-4 border-[#2FD794] rounded-lg overflow-hidden cursor-pointer`}
+                    <div className={`${!isHovered2 ? 'h-60 w-48' : 'h-[9rem] w-[9rem]'}  Card mb-5  border-4 border-[#2FD794] rounded-lg overflow-hidden cursor-pointer`}
                         onClick={() => { handleReadMoreClick('Medical'); window.scrollTo(0, 0); }} >
                         <img src={ventilator} alt="Medical Equipment Planning" className={`bg-[#2FD794] ${!isHovered2 ? 'w-24 h-24' : 'h-[4rem] w-[4rem]'}  m-auto mt-8 object-none rounded-full`} />
                         {!isHovered2 && (
@@ -248,7 +248,7 @@ const Manu = () => {
                     </div>
 
                     {/* Card 2 */}
-                    <div className={`${!isHovered2 ? 'h-60 w-48' : 'h-[9rem] w-[9rem]'}  Card  border-4 border-[#2FD794] rounded-lg overflow-hidden cursor-pointer`}
+                    <div className={`${!isHovered2 ? 'h-60 w-48' : 'h-[9rem] w-[9rem]'}  Card mb-5  border-4 border-[#2FD794] rounded-lg overflow-hidden cursor-pointer`}
                         onClick={() => { handleReadMoreClick('Furniture'); window.scrollTo(0, 0); }} >
                         <img src={bed} alt="Furniture, Fixtures, and Equipment" className={`bg-[#2FD794] ${!isHovered2 ? 'w-24 h-24' : 'h-[4rem] w-[4rem]'} m-auto mt-8 object-none rounded-full`} />
                         {!isHovered2 && (
@@ -259,7 +259,7 @@ const Manu = () => {
                     </div>
 
                     {/* Card 3 */}
-                    <div className={`${!isHovered2 ? 'h-60 w-48' : 'h-[9rem] w-[9rem]'}  Card  border-4 border-[#2FD794] rounded-lg overflow-hidden cursor-pointer`}
+                    <div className={`${!isHovered2 ? 'h-60 w-48' : 'h-[9rem] w-[9rem]'}  Card mb-5  border-4 border-[#2FD794] rounded-lg overflow-hidden cursor-pointer`}
                         onClick={() => { handleReadMoreClick('Tendering'); window.scrollTo(0, 0); }} >
                         <img src={tender} alt="Tendering and Procurement" className={`bg-[#2FD794] ${!isHovered2 ? 'w-24 h-24' : 'h-[4rem] w-[4rem]'} m-auto mt-8 object-none rounded-full`} />
                         {!isHovered2 && (
@@ -270,7 +270,7 @@ const Manu = () => {
                     </div>
 
                     {/* Card 4 */}
-                    <div className={`${!isHovered2 ? 'h-60 w-48' : 'h-[9rem] w-[9rem]'}  Card  border-4 border-[#2FD794] rounded-lg overflow-hidden cursor-pointer`}
+                    <div className={`${!isHovered2 ? 'h-60 w-48' : 'h-[9rem] w-[9rem]'}  Card mb-5  border-4 border-[#2FD794] rounded-lg overflow-hidden cursor-pointer`}
                         onClick={() => { handleReadMoreClick('Acceptance'); window.scrollTo(0, 0); }} >
                         <img src={love} alt="Acceptance and Handover" className={`bg-[#2FD794] ${!isHovered2 ? 'w-24 h-24' : 'h-[4rem] w-[4rem]'} m-auto mt-8 object-none rounded-full`} />
                         {!isHovered2 && (
@@ -281,7 +281,7 @@ const Manu = () => {
                     </div>
 
                     {/* Card 5 */}
-                    <div className={`${!isHovered2 ? 'h-60 w-48' : 'h-[9rem] w-[9rem]'}  Card  border-4 border-[#2FD794] rounded-lg overflow-hidden cursor-pointer`}
+                    <div className={`${!isHovered2 ? 'h-60 w-48' : 'h-[9rem] w-[9rem]'}  Card mb-5  border-4 border-[#2FD794] rounded-lg overflow-hidden cursor-pointer`}
                         onClick={() => { navigate('/services'); window.scrollTo(0, 0); }} >
                         <img src={plus} alt="See More" className={`bg-[#2FD794] ${!isHovered2 ? 'w-24 h-24' : 'h-[4rem] w-[4rem]'} m-auto mt-8 object-none rounded-full`} />
                         {!isHovered2 && (
@@ -309,7 +309,7 @@ const Manu = () => {
                     )}
 
                     {/* Card 1 */}
-                    <div className={`${!isHovered ? 'h-60 w-48' : 'h-[9rem] w-[9rem]'}  Card  border-4 border-[#2FD794] rounded-lg overflow-hidden cursor-pointer`}
+                    <div className={`${!isHovered ? 'h-60 w-48' : 'h-[9rem] w-[9rem]'}  Card mb-5  border-4 border-[#2FD794] rounded-lg overflow-hidden cursor-pointer`}
                         onClick={() => { handleReadMoreClick('Business'); window.scrollTo(0, 0); }} >
                         <img src={agile} alt="Agile Business Analysis" className={`bg-[#2FD794] ${!isHovered ? 'w-24 h-24' : 'h-[4rem] w-[4rem]'} m-auto mt-8 object-none rounded-full`} />
 
@@ -322,7 +322,7 @@ const Manu = () => {
                     </div>
 
                     {/* Card 2 */}
-                    <div className={`${!isHovered ? 'h-60 w-48' : 'h-[9rem] w-[9rem]'}  Card  border-4 border-[#2FD794] rounded-lg overflow-hidden cursor-pointer`}
+                    <div className={`${!isHovered ? 'h-60 w-48' : 'h-[9rem] w-[9rem]'}  Card mb-5  border-4 border-[#2FD794] rounded-lg overflow-hidden cursor-pointer`}
                         onClick={() => { handleReadMoreClick('Digital'); window.scrollTo(0, 0); }} >
                         <img src={business} alt="Digital Business Analysis" className={`bg-[#2FD794] ${!isHovered ? 'w-24 h-24' : 'h-[4rem] w-[4rem]'} m-auto mt-8 object-none rounded-full`} />
 
@@ -334,7 +334,7 @@ const Manu = () => {
                     </div>
 
                     {/* Card 3 */}
-                    <div className={`${!isHovered ? 'h-60 w-48' : 'h-[9rem] w-[9rem]'}  Card  border-4 border-[#2FD794] rounded-lg overflow-hidden cursor-pointer`}
+                    <div className={`${!isHovered ? 'h-60 w-48' : 'h-[9rem] w-[9rem]'}  Card mb-5  border-4 border-[#2FD794] rounded-lg overflow-hidden cursor-pointer`}
                         onClick={() => { handleReadMoreClick('Enterprise'); window.scrollTo(0, 0); }} >
                         <img src={team} alt="Architecture Analysis" className={`bg-[#2FD794] ${!isHovered ? 'w-24 h-24' : 'h-[4rem] w-[4rem]'} m-auto mt-8 object-none rounded-full`} />
                         {!isHovered && (
@@ -345,7 +345,7 @@ const Manu = () => {
                     </div>
 
                     {/* Card 4 */}
-                    <div className={`${!isHovered ? 'h-60 w-48' : 'h-[9rem] w-[9rem]'}  Card  border-4 border-[#2FD794] rounded-lg overflow-hidden cursor-pointer`}
+                    <div className={`${!isHovered ? 'h-60 w-48' : 'h-[9rem] w-[9rem]'}  Card mb-5  border-4 border-[#2FD794] rounded-lg overflow-hidden cursor-pointer`}
                         onClick={() => { handleReadMoreClick('Business'); window.scrollTo(0, 0); }} >
                         <img src={growth} alt="Acceptance and Handover" className={`bg-[#2FD794] ${!isHovered ? 'w-24 h-24' : 'h-[4rem] w-[4rem]'} m-auto mt-8 object-none rounded-full`} />
                         {!isHovered && (
@@ -356,7 +356,7 @@ const Manu = () => {
                     </div>
 
                     {/* Card 5 */}
-                    <div className={`${!isHovered ? 'h-60 w-48' : 'h-[9rem] w-[9rem]'}  Card  border-4 border-[#2FD794] rounded-lg overflow-hidden cursor-pointer`}
+                    <div className={`${!isHovered ? 'h-60 w-48' : 'h-[9rem] w-[9rem]'}  Card mb-5  border-4 border-[#2FD794] rounded-lg overflow-hidden cursor-pointer`}
                         onClick={() => { navigate('/services'); window.scrollTo(0, 0); }} >
                         <img src={plus} alt="See More" className={`bg-[#2FD794] ${!isHovered ? 'w-24 h-24' : 'h-[4rem] w-[4rem]'} m-auto mt-8 object-none rounded-full`} />
                         {!isHovered && (
@@ -372,23 +372,24 @@ const Manu = () => {
                 {`
             
             @media (max-width: 1275px) {
-                .Business  {
+                .Business , .Cards {
                     margin-left: 10rem;
                     margin-right: 10rem;
                
                 }
              }    
               @media (max-width: 1015px) {
-                .Business{
+                .Business , .Cards {
                     margin-right: 5rem!important;
                     margin-left: 5rem!important;
                 }
                }
                @media (max-width: 815px) {
-                .Business{
+                .Business , .Cards{
                     margin-right: 2rem!important;
                     margin-left: 2rem!important;
                 }
+                
                }
 
                @media (max-width: 1063px) {

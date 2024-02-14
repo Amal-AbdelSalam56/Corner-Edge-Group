@@ -100,8 +100,8 @@ const Services = () => {
         } else if (param === 'Furniture') {
             imgCover = Banner2;
             img = Photo2;
-            titl = 'Furniture, Fixtures , and Equipment';
-            content = 'We Manage and facilitate User group meetings for requirements gathering';
+            titl = 'Furniture, Fixtures, and Equipment';
+            content = 'We seamlessly integrate operational and technical knowledge in healthcare facilities. Understanding the connections between furniture, equipment planning, and procurement enables us to enhance facility efficiency and safety holistically.';
             values = [
                 { name: "Developing and managing a detailed equipment and FF&E master list. " },
                 { name: "Create and develop detailed FF&E specifications and procurement plan." },
@@ -114,8 +114,8 @@ const Services = () => {
         } else if (param === 'Tendering') {
             imgCover = Banner3;
             img = Photo3;
-            titl = 'Tendering & ProcurementFurniture, Fixtures , and Equipment';
-            content = 'We Produce medical equipment and FF&E budget';
+            titl = 'Tendering & Procurement ';
+            content = 'We proficiently collect diverse requirements to formulate comprehensive specifications to support the issuing of tender documents, and ultimately awarding contracts to the chosen suppliers. The goal is to ensure the acquisition of high-quality, cost-effective items that meet the specific needs and standards of the project or organization.';
             values = [
                 { name: "Allocate medical equipment and FF&E by tender packages." },
                 { name: "Advise on a list of pre-qualified suppliers." },
@@ -128,7 +128,7 @@ const Services = () => {
             imgCover = Banner4;
             img = Photo4;
             titl = 'Acceptance and Handover';
-            content = 'We Provide acceptance inspection criteria. ';
+            content = 'We advise on the formal processes of acknowledging and transferring ownership or responsibility for medical devices. This typically includes thorough inspections, testing, and verification to ensure that the equipment meets specified standards and requirements. This ensures a smooth transition and effective utilization of the medical equipment in its intended healthcare setting.';
             values = [
                 { name: "Define a detailed list of markings and documentation required for acceptance." },
                 { name: "Advise on test selection and acceptance testing." },
@@ -139,7 +139,7 @@ const Services = () => {
             imgCover = Banner5;
             img = Photo5;
             titl = 'Biomedical Equipment management';
-            content = 'We Analyze the hospital’s asset list and perform an on-site audit of both clinical and non-clinical equipment';
+            content = 'We conduct on-site audits of clinical and non-clinical equipment, analyzing the hospitals asset list to ensure optimal performance, safety, and regulatory compliance. Our management approach encompasses inventory control, asset tracking, and documentation of equipment history, aiming to enhance patient care, prolong equipment lifespan, and minimize disruptions, ultimately improving the overall efficiency and reliability of medical services.';
             values = [
                 { name: "Create a maintenance program for all medical equipment, including preventative maintenance, routine inspections, and repairs." },
                 { name: "Assess the present suppliers’ service contracts to determine any potential opportunities for optimizing or changing the contract terms." },
@@ -369,6 +369,12 @@ const Services = () => {
     
                 }
                }
+               
+            //   @media (max-width: 435px) {
+            //     .Business {
+            //         margin: 0!important;
+    
+            //     }
          `}
             </style>
         </>

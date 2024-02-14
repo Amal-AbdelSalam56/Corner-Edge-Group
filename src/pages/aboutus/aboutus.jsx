@@ -27,19 +27,19 @@ const AboutUs = () => {
             title: 'Integrity',
             image: img6,
             content:
-                'Committed to understanding our clients’ needs and delivering exceptional solutions. Our accountability and recognition that our success is tied to our clients’ success drives us to provide the best possible services and solution.',
+                'Integrity is at the core of everything we do, and we approach all interactions with openness, honesty, and genuineness. We believe that building trust with our clients is essential to creating long-term relationships that are beneficial for everyone involved',
         },
         {
             title: 'Client Centered',
             image: img7,
             content:
-                'Committed to understanding our clients’ needs and delivering exceptional solutions. Our accountability and recognition that our success is tied to our clients’ success drives us to provide the best possible services and solution',
+                ' Our commitment to understanding our client’s needs and delivering exceptional solutions is based on recognition that our success is linked to our client’s success.',
         },
         {
             title: 'Reliability',
             image: img8,
             content:
-                'Reliability is paramount in our industry, and we strive for consistency in quality and behavior to meet our clients’ expectations. We continuously evolve and improve our services by investing in our team’s development and adopting new technologies and methodologies to stay ahead of the curve.',
+                'Reliability We strive for consistency in quality and approach / methodology to meet our clients’ expectations. We continuously evolve and improve our services by investing in our team’s personal & professional development and by adopting new technologies and  methodologies to stay ahead of the  curve.',
         },
     ];
     const [activeTab, setActiveTab] = useState(tabs[0].title);
@@ -54,7 +54,7 @@ const AboutUs = () => {
 
     return (
         <>
-            <HeadAbout />
+            {/* <HeadAbout /> */}
 
             <WhoUs />
 

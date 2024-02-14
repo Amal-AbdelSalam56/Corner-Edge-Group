@@ -38,28 +38,28 @@ const Contact = () => {
                     <form >
                         <div className="mb-6">
                             <label htmlFor="firstName" className="block text-[12px] text-[#8D8D8D]">First Name:</label>
-                            <input type="text" id="firstName" name="firstName" className="w-full p-2 border border-slate-400 " />
+                            <input type="text" id="firstName" name="firstName" placeholder="David" className="w-full p-2 border border-slate-400 " />
                         </div>
 
                         <div className="mb-6">
                             <label htmlFor="Email" className="block text-[12px] text-[#8D8D8D]">Email:</label>
-                            <input type="text" id="Email" name="Email" className="w-full p-2 border border-slate-400 " />
+                            <input type="text" id="Email" name="Email" placeholder="David@info.com" className="w-full p-2 border border-slate-400 " />
                         </div>
                         <div className="mb-6">
                             <label htmlFor="Phone" className="block text-[12px] text-[#8D8D8D]">Phone:</label>
-                            <input type="text" id="Phone" name="Phone" className="w-full p-2 border border-slate-400" />
+                            <input type="text" id="Phone" name="Phone" placeholder="04 43 55 789" className="w-full p-2 border border-slate-400" />
                         </div>
                         <div className="mb-6">
                             <label htmlFor="Company" className="block text-[12px] text-[#8D8D8D]">Company:</label>
-                            <input type="text" id="Company" name="Company" className="w-full p-2 border border-slate-400" />
+                            <input type="text" id="Company" name="Company" placeholder="TEK" className="w-full p-2 border border-slate-400" />
                         </div>
                         <div className="mb-6">
                             <label htmlFor="Requested Service" className="block text-[12px] text-[#8D8D8D]">Requested Service:</label>
-                            <input type="text" id="Requested Service" name="Requested Service" className="w-full p-2 border border-slate-400" />
+                            <input type="text" id="Requested Service" placeholder="Acceptance and Handover" name="Requested Service" className="w-full p-2 border border-slate-400" />
                         </div>
                         <div className="mb-6">
                             <label htmlFor="comment" className="block text-[12px] text-[#8D8D8D]">Comment or Message:</label>
-                            <textarea id="comment" name="comment" rows="4" className="w-full p-2 border border-slate-400"></textarea>
+                            <textarea id="comment" name="comment" rows="4" placeholder="Write your message here..." className="w-full p-2 border border-slate-400"></textarea>
                         </div>
                         <div className="w-full text-center">
                             <button type="submit" className="submit m-auto bg-[#1D2F71] text-white py-2 px-4 rounded">Send Message</button>

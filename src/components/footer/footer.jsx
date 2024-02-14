@@ -1,10 +1,7 @@
 import call from "../../assets/images/call.svg";
 import mail from "../../assets/images/mail.svg";
 import linkedin from "../../assets/images/linkedin.png";
-import Fb from "../../assets/images/Fb.png";
-import Twiter from "../../assets/images/Twiter.png";
-import Pintrest from "../../assets/images/Pintrest.png";
-import Logo from "../../assets/images/ICON.png";
+import Logo from "../../assets/images/newlogo.png";
 import box from "../../assets/images/box.png";
 import { useNavigate } from 'react-router-dom';
 import Banner1 from "../../assets/images/Banner1.png";
@@ -88,8 +85,8 @@ const Footer = () => {
         } else if (param === 'Furniture') {
             imgCover = Banner2;
             img = Photo2;
-            titl = 'Furniture, Fixtures , and Equipment';
-            content = 'We Manage and facilitate User group meetings for requirements gathering';
+            titl = 'Furniture, Fixtures, and Equipment';
+            content = 'We seamlessly integrate operational and technical knowledge in healthcare facilities. Understanding the connections between furniture, equipment planning, and procurement enables us to enhance facility efficiency and safety holistically.';
             values = [
                 { name: "Developing and managing a detailed equipment and FF&E master list. " },
                 { name: "Create and develop detailed FF&E specifications and procurement plan." },
@@ -102,8 +99,8 @@ const Footer = () => {
         } else if (param === 'Tendering') {
             imgCover = Banner3;
             img = Photo3;
-            titl = 'Tendering & ProcurementFurniture, Fixtures , and Equipment';
-            content = 'We Produce medical equipment and FF&E budget';
+            titl = 'Tendering & Procurement ';
+            content = 'We proficiently collect diverse requirements to formulate comprehensive specifications to support the issuing of tender documents, and ultimately awarding contracts to the chosen suppliers. The goal is to ensure the acquisition of high-quality, cost-effective items that meet the specific needs and standards of the project or organization.';
             values = [
                 { name: "Allocate medical equipment and FF&E by tender packages." },
                 { name: "Advise on a list of pre-qualified suppliers." },
@@ -116,7 +113,7 @@ const Footer = () => {
             imgCover = Banner4;
             img = Photo4;
             titl = 'Acceptance and Handover';
-            content = 'We Provide acceptance inspection criteria. ';
+            content = 'We advise on the formal processes of acknowledging and transferring ownership or responsibility for medical devices. This typically includes thorough inspections, testing, and verification to ensure that the equipment meets specified standards and requirements. This ensures a smooth transition and effective utilization of the medical equipment in its intended healthcare setting.';
             values = [
                 { name: "Define a detailed list of markings and documentation required for acceptance." },
                 { name: "Advise on test selection and acceptance testing." },
@@ -127,7 +124,7 @@ const Footer = () => {
             imgCover = Banner5;
             img = Photo5;
             titl = 'Biomedical Equipment management';
-            content = 'We Analyze the hospital’s asset list and perform an on-site audit of both clinical and non-clinical equipment';
+            content = 'We conduct on-site audits of clinical and non-clinical equipment, analyzing the hospitals asset list to ensure optimal performance, safety, and regulatory compliance. Our management approach encompasses inventory control, asset tracking, and documentation of equipment history, aiming to enhance patient care, prolong equipment lifespan, and minimize disruptions, ultimately improving the overall efficiency and reliability of medical services.';
             values = [
                 { name: "Create a maintenance program for all medical equipment, including preventative maintenance, routine inspections, and repairs." },
                 { name: "Assess the present suppliers’ service contracts to determine any potential opportunities for optimizing or changing the contract terms." },
@@ -234,7 +231,18 @@ const Footer = () => {
 
                 {/* First Line */}
                 <div className="First flex items-center justify-between mb-4 pr-[340px] flex-wrap">
-                    <img src={Logo} alt="Logo" className="h-20 cursor-pointer" onClick={() => { navigate('/'); window.scrollTo(0, 0); }} />
+                    {/* <img src={Logo} alt="Logo" className="h-20 cursor-pointer" onClick={() => { navigate('/'); window.scrollTo(0, 0); }} /> */}
+                    <div className=" flex items-center cursor-pointer" onClick={() => { navigate('/'); window.scrollTo(0, 0); }}>
+                        <img src={Logo} alt="Logo" className="h-20 " />
+                        <div className="w-4" />
+                        <div className="hide flex flex-col items-center text-[14px]">
+                            <span className="font-semibold">Corner Edge</span>
+                            <span className="font-semibold">Group</span>
+                            <span className="font-semibold text-[#40DDB6]">Engineering Advisors</span>
+
+                        </div>
+                    </div>
+
                     <div className="hide flex flex-wrap">
                         <div className="flex">
                             <img src={call} alt="Icon" className="mr-2"
@@ -251,11 +259,12 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className=" flex ">
-                            <img src={mail} alt="Icon" className="mr-2" style={{
-                                backgroundColor: "#FFFFFF33",
-                                padding: "16px",
-                                borderRadius: "30px"
-                            }} />
+                            <img src={mail} alt="Icon" className="mr-2 cursor-pointer" onClick={() => { navigate('/contact'); window.scrollTo(0, 0); }}
+                                style={{
+                                    backgroundColor: "#FFFFFF33",
+                                    padding: "16px",
+                                    borderRadius: "30px"
+                                }} />
 
                             <div className="w-4" />
                             <div className="flex flex-col items-start text-[16px] 	">
@@ -329,7 +338,7 @@ const Footer = () => {
                             <li className="text-[16px] text-[#40DDB6] mb-3 cursor-pointer" onClick={() => { navigate('/aboutus'); window.scrollTo(0, 0); }}>About Us</li>
                             <li className="text-[16px] mb-3 cursor-pointer" onClick={() => { navigate('/blog'); window.scrollTo(0, 0); }}>Blog</li>
                             <li className="text-[16px] mb-3 cursor-pointer" onClick={() => { navigate('/services'); window.scrollTo(0, 0); }}>Services</li>
-                            <li className="text-[16px] mb-3 cursor-pointer" onClick={() => { navigate('/contact'); window.scrollTo(0, 0); }}>Contact</li>
+                            <li className="text-[16px] mb-3 cursor-pointer" onClick={() => { navigate('/contact'); window.scrollTo(0, 0); }}>Contact Us</li>
                         </ul>
                     </div>
 
@@ -341,8 +350,8 @@ const Footer = () => {
                             <li className="text-[16px] mb-3 cursor-pointer" onClick={() => { handleReadMoreClick('Medical'); window.scrollTo(0, 0); }}>Medical Equipment</li>
                             <li className="text-[16px] mb-3 cursor-pointer" onClick={() => { handleReadMoreClick('Tendering'); window.scrollTo(0, 0); }}>Tendering & Procurement</li>
                             <li className="text-[16px] mb-3 cursor-pointer" onClick={() => { handleReadMoreClick('Acceptance'); window.scrollTo(0, 0); }}>Acceptance and Handover</li>
-                            <li className="text-[16px] mb-3 cursor-pointer" onClick={() => { handleReadMoreClick('Biomedical'); window.scrollTo(0, 0); }}>Biomedical Equipment </li>
-                            <li className="text-[16px] mb-3 cursor-pointer" onClick={() => { handleReadMoreClick('Cost'); window.scrollTo(0, 0); }}>management</li>
+                            <li className="text-[16px] mb-3 cursor-pointer" onClick={() => { handleReadMoreClick('Biomedical'); window.scrollTo(0, 0); }}>Biomedical Equipment <br /> &nbsp;&nbsp;&nbsp;&nbsp; management</li>
+                            {/* <li className="text-[16px] mb-3 cursor-pointer" onClick={() => { handleReadMoreClick('Cost'); window.scrollTo(0, 0); }}>management</li> */}
                             <li className="text-[16px] mb-3 underline cursor-pointer" onClick={() => { navigate('/services'); window.scrollTo(0, 0); }}>More</li>
                         </rl>
                     </div>
@@ -353,7 +362,7 @@ const Footer = () => {
                         <rl >
                             <li className="text-[16px] mb-3 cursor-pointer" onClick={() => { handleReadMoreClick('Enterprise'); window.scrollTo(0, 0); }}>Enterprise Architecture Analysis</li>
                             <li className="text-[16px] mb-3 cursor-pointer" onClick={() => { handleReadMoreClick('Requirement'); window.scrollTo(0, 0); }}>Requirements Management</li>
-                            <li className="text-[16px] mb-3 cursor-pointer" onClick={() => { handleReadMoreClick('Digital'); window.scrollTo(0, 0); }}>Mapping Value Streams and <br /> Customer Journeys</li>
+                            <li className="text-[16px] mb-3 cursor-pointer" onClick={() => { handleReadMoreClick('Digital'); window.scrollTo(0, 0); }}>Mapping Value Streams and <br /> &nbsp;&nbsp;&nbsp;&nbsp;  Customer Journeys</li>
                             <li className="text-[16px] mb-3 cursor-pointer" onClick={() => { handleReadMoreClick('Business'); window.scrollTo(0, 0); }}>Business Process Improvement </li>
                             <li className="text-[16px] mb-3 underline cursor-pointer" onClick={() => { navigate('/services'); window.scrollTo(0, 0); }}>More</li>
                         </rl>
@@ -382,8 +391,10 @@ const Footer = () => {
                         <p className="mr-4 mt-[4px]">Follow:</p>
                         {/* Social Media Icons */}
                         <div className="flex items-center justify-center text-center">
-                            <img src={linkedin} alt="Social Media Icon 1" className="h-8 w-8 mr-4 cursor-pointer"
-                                onClick={() => { navigate('/services'); window.scrollTo(0, 0); }} />
+                            <a href="https://www.linkedin.com/company/corner-edge-group/?viewAsMember=true" target="_blank" rel="noopener noreferrer">
+                                <img src={linkedin} alt="Social Media Icon 1" className="h-8 w-8 mr-4 cursor-pointer" />
+                            </a>
+
                             {/* <img src={Fb} alt="Social Media Icon 2" className="mr-4" />
                             <img src={Twiter} alt="Social Media Icon 2" className="mr-4" />
                             <img src={Pintrest} alt="Social Media Icon 2" className="mr-4" /> */}
@@ -441,6 +452,11 @@ const Footer = () => {
                       width: 100%;
                     }       
               }
+              @media (max-width: 435px) {
+                .hide {
+                    display: none;
+    
+                }
 
          `}
             </style>
